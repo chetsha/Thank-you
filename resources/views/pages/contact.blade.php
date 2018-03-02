@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>contact</h1>
+    <h1>Contact</h1>
 
     <form role="form" id="contact-form" class="contact-form" method="POST" action="{{route('contact.store')}}">
 
